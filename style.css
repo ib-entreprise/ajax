@@ -13,15 +13,16 @@
 #content img {
     max-width: 100%;
     max-height: 100%;    
+    object-fit: cover;
 }
 
 
-button{
+#raceChien{
     position: absolute;
     top: 80%;
     left: 40%;
     background: blue;
     color: white;
-    padding: 10px;
-    font-size: 16px;
+    padding: 20px;
+    font-size: 20px;
 }
