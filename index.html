@@ -8,21 +8,31 @@
 </head>
 <body>
 
-
-    <div  id="content">
-        <h2></h2>
-        <img src="" alt="">
+    <div class="container">            
+        <div  id="content">
+            <h2></h2>
+            <img id="image" src="" alt="">
+        </div>
+        <ul>
+            <li>
+                <button class="button" id="boutonChien">Afficher Un Chien</button>
+            </li>
+            <li>
+                <select id="raceChien" class="button">
+                    <option value="airedale">airedale</option>
+                    <option value="african">African</option>
+                    <option value="maltese">maltese</option>
+                    <option value="husky">husky</option>
+                    <option value="eskimo">eskimo</option>
+                </select>
+            </li>
+            <!-- <input type="text" id="search" placeholder="Choisir Une Race De Chien"> -->
+        </ul>     
+        <div class="save">
+            <h1>Photos Sauvegardes</h1>
+            <ul id="favorites"></ul>
+        </div>
     </div>
-    <!-- <button id="boutonChien">Afficher Un Chien</button> -->
-    
-    <select id="raceChien">
-        <option value="airedale">airedale</option>
-        <option value="african">African</option>
-        <option value="maltese">maltese</option>
-        <option value="husky">husky</option>
-        <option value="eskimo">eskimo</option>
-    </select>
-    
 
     <script src="script.js"></script>
 </body>
