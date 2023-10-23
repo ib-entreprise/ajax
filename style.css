@@ -7,7 +7,7 @@
     width: 600px;
     height: 400px;
     background-color: blue;
-    overflow: hidden; /* Pour masquer toute partie de l'image qui pourrait dépasser */
+    overflow: hidden; 
 }
 
 #content img {
